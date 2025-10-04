@@ -27,3 +27,17 @@ I hope this isn't the final solution, because I may _eventually_ get Rekordbox, 
 
   
 
+## 10/4/2025 - Nunchuk input detection  
+
+I figured out somewhat how to get gestures detected. In the code I have it where if the velocity of certain things crosses a threshold, it will activate a gesture, followed by a debounce time.
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzMyLCJwdXIiOiJibG9iX2lkIn19--e6745ded95f1755144b51a7e47642608a994203b/image.png)
+
+What this will allow me to do is switch decks without allocating a while key to it! With a very quick flick, I can move from deck to deck (however, it doesn't actually interface with rekordbox yet).
+
+Yay, okay, idk if videos work here but this is it working!
+
+
+[20251004_094054.mp4](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzMzLCJwdXIiOiJibG9iX2lkIn19--08b30c44ebd28950adb76079b7026ca89a8dfbee/20251004_094054.mp4)
+  
+
