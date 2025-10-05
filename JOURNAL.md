@@ -41,3 +41,26 @@ Yay, okay, idk if videos work here but this is it working!
 [20251004_094054.mp4](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzMzLCJwdXIiOiJibG9iX2lkIn19--08b30c44ebd28950adb76079b7026ca89a8dfbee/20251004_094054.mp4)
   
 
+## 10/5/2025 - Working nunchuk control  
+
+I finished the nunchuk interfacing, which ended up being super cool! However, this is only step 1 of the project, because I know I can make it much much cooler!
+
+As of now, with the nunchuk you can press the Z key (bottom back button) and move the joystick to move the selected track forward / backward. I also added in the ability to hotcue by pressing c with the joystick in one of 8 outer positions. You can press c with the joystick in the center to pause the selected deck. 
+
+Deck selection defaults at deck 1 (d0 in the code), but can be changed by shaking the nunchuk.
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTgxLCJwdXIiOiJibG9iX2lkIn19--aa31d8417ffec1e2c0f38d9000c6ae001fc12295/image.png)
+
+False shows it's not in deck switch debounce time, the three numbers following are acceleration, then it shows the current deck, and the joystick positions.
+
+I also added in a screen to show which deck is active!
+
+![20251005_101558.jpg](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTc5LCJwdXIiOiJibG9iX2lkIn19--cc630b8ad156156bea373831402f81f60451cc94/20251005_101558.jpg)
+
+Here's a video of all the features working on conjunction:
+
+[20251005_102238.mp4](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTg1LCJwdXIiOiJibG9iX2lkIn19--12e45653f3aa10482deb347c6130440eb3b53dc8/20251005_102238.mp4)
+
+
+As of now you can't change bpm with the controller. This is something I will work on after I pick up some horizontal potentiometers ;)  
+
