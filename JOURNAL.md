@@ -64,7 +64,7 @@ Here's a video of all the features working on conjunction:
 
 As of now you can't change bpm with the controller. This is something I will work on after I pick up some horizontal potentiometers ;)  
 
-## 10/6/2025 - handpicked parts  
+## 10/6/2025 3 PM - handpicked parts  
 
 The nunchuk works, but I can't do much more with it, hence why I am moving to proper parts for the remainder of the project!
 
@@ -79,6 +79,29 @@ This is the full cart:
 It's crazy how a lot of bits and bobbers is $160 now, but it's actually so chill since this should carry me through the whole project.
 
 It's interesting because I can most likely implement as many features as a CDJ3000 has (minus the screen because I don't want one), but for a tiny fraction of the price!
+
+  
+
+## 10/6/2025 5 PM - Sketching wiring  
+
+This was the sketch of the EQ module, which is going to have 5 rotary pots and 1 horizontal pot
+
+![20251006_113029.jpg](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Nzg1LCJwdXIiOiJibG9iX2lkIn19--bbb61eb4afebf9d0f2d808a60f06896cad1ccfb0/20251006_113029.jpg)
+
+Then I decided "hold up why don't I make it a little modular so it's easier to move?
+
+so i'm doing it modular now !! (I keep making this more complicated for myself lol)
+
+If I want to make this modular, I'm gonna need quite a few extra features to make it happen. One of them, is to create connection points on every main module, each with some type of index so the control board can figure out what is where.
+
+Then I figured out at least where the connection points will go, and how passthrough wires will work. Passthroughs are going to be hard, but because I'm only making a few modules (2 deck EQ, Browser / fx, Screen (x2), Decks (x2), and the hotcues (and the control board one)) I can just size things so there's only 5 spots for a connection point type, and just make them have diff connectors.
+
+The screens can go anywhere on the top so I just wire passthrough from the control to the tops of decks. The hotcues are on the bottom, but need diff voltages because they will work differently at different spots. 
+
+Those are the complicated ones, the rest are passthrough.
+
+![20251006_113022.jpg](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Nzg3LCJwdXIiOiJibG9iX2lkIn19--acb32ef22174d66cb1743bf4b055fcf38186ca1f/20251006_113022.jpg)
+
 
   
 
