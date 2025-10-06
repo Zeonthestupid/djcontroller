@@ -64,3 +64,21 @@ Here's a video of all the features working on conjunction:
 
 As of now you can't change bpm with the controller. This is something I will work on after I pick up some horizontal potentiometers ;)  
 
+## 10/6/2025 - handpicked parts  
+
+The nunchuk works, but I can't do much more with it, hence why I am moving to proper parts for the remainder of the project!
+
+I decided to order it in the hope that I can offset some of the costs with the grant, but it's completely fine if that's a small portion (I ordered a lot because of Digikey's bulk pricing).
+
+The biggest purchase risk I'm taking is ordering a $45 encoder for the jogwheel. It's risky because i can't really use it for other projects (or at least I don't need something that precise). I'm getting a 2223-AMT102-D2048-I6000-S-ND, which 2048 pulses per rotation, meaning I get hyper precise movement data.
+
+This is the full cart:
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzY4LCJwdXIiOiJibG9iX2lkIn19--f9d4205050239f06b5a3ae07e85b8776368152ee/image.png)
+
+It's crazy how a lot of bits and bobbers is $160 now, but it's actually so chill since this should carry me through the whole project.
+
+It's interesting because I can most likely implement as many features as a CDJ3000 has (minus the screen because I don't want one), but for a tiny fraction of the price!
+
+  
+
