@@ -105,7 +105,7 @@ Those are the complicated ones, the rest are passthrough.
 
   
 
-## 10/8/2025 - First PCB  
+## 10/8/2025 4 PM - First PCB  
 
 So I ordered some parts from digikey! (See: handpicked parts), but I realized I wanted to make some "backpack" type 1-2 layer PCBs so that I wouldn't have to mount it in a wonky way.
 
@@ -122,5 +122,28 @@ I finally learnt how to properly use EasyEDA, so I designed a simple piece with 
 It's a very simple 3 encoder design!
 
 I will need to make sure it all works, and will end up exporting so I can check with Onshape (because I know that better than easyeda), however this is a good first step!
+  
+
+## 10/8/2025 7 PM - 4 new PCBs  
+
+I started by making my full EQ module
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTEwMiwicHVyIjoiYmxvYl9pZCJ9fQ==--835bf9f858b37265f3da103d560648a4210f1653/image.png)
+
+This was great.. until I looked at the price. Surprisingly it would be better to have each thing individually. 
+
+I also have 100mm pots to worry about (for BPM changing exclusively), so I will be printing extra of those!
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTEwMywicHVyIjoiYmxvYl9pZCJ9fQ==--fb51ae6e1bbc2ef7dbf430222921047521879521/image.png)
+(Those are the 100mm ones!)
+
+Then I spent 1.5 hours trying to manually lay where the holes of a component went, only to realize there was one already on EasyEDAs directory smh...
+
+Anyways these are the other ones:
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTEwNCwicHVyIjoiYmxvYl9pZCJ9fQ==--49380a7e05dcc2364bcec744a1c424da12f45e32/image.png)
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTEwNywicHVyIjoiYmxvYl9pZCJ9fQ==--2fb81fa8894f6a040756903c989412ea21d0098c/image.png)
+
   
 
