@@ -105,3 +105,22 @@ Those are the complicated ones, the rest are passthrough.
 
   
 
+## 10/8/2025 - First PCB  
+
+So I ordered some parts from digikey! (See: handpicked parts), but I realized I wanted to make some "backpack" type 1-2 layer PCBs so that I wouldn't have to mount it in a wonky way.
+
+The problem with these, is that if I build ones specifically for modules such as the EQ module, I can't add much more onto it!
+
+That being said, I'm pretty clear on what I want the v1 to look like, so I can most likely just print a full eq module out and not have too many failed pieces. Seems like shipping will be an issue, so I'm going to print some single encoder pieces that I can use for either this or a future project.
+
+I finally learnt how to properly use EasyEDA, so I designed a simple piece with it!
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTA4MywicHVyIjoiYmxvYl9pZCJ9fQ==--0871476648543c3f73895aa4d69f6778a811661b/image.png)
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTA4NCwicHVyIjoiYmxvYl9pZCJ9fQ==--240869430b790aa696af4b0177f8c3a118d7b69a/image.png)
+
+It's a very simple 3 encoder design!
+
+I will need to make sure it all works, and will end up exporting so I can check with Onshape (because I know that better than easyeda), however this is a good first step!
+  
+
