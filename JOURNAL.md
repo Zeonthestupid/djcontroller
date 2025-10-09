@@ -147,3 +147,21 @@ Anyways these are the other ones:
 
   
 
+## 10/9/2025 - The worst solder of my life  
+
+Soo I decided INSTEAD of ordering a pcb (expensive), I exported it from EasyEDA as a STL, and then got to working.
+
+The holes on the print were too small, so I took a Dremel to open them up a bit, which actually ended up working quite well!
+
+![20251009_094818.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTI2MywicHVyIjoiYmxvYl9pZCJ9fQ==--6aa161d4e6e406ad789c914458d3945a8fba58ff/20251009_094818.jpg)
+
+However, once I got all the pots (including the slider) in, they got stuck, so instead of soldering them normally, I soldered them right next to the heat sensitive plastic.
+
+That was only the first issues
+
+The second was that my solder joints WOULDNT STICK because theres no copper (bc not pcb), so I ended thinking "hmm what if I just used more pla to stick it down (big mistake)
+
+![20251009_112944.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTI2NCwicHVyIjoiYmxvYl9pZCJ9fQ==--66ed46acd51ba9d739d43c024a1637bfb453341d/20251009_112944.jpg)
+
+Yeahhhhhh This SUCKS and I'm never doing it again. Luckily when I return to the workstation I will reprint and solder the second EQ module in a better way. + I'll have a case!  
+
