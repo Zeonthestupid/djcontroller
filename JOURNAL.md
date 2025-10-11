@@ -64,7 +64,7 @@ Here's a video of all the features working on conjunction:
 
 As of now you can't change bpm with the controller. This is something I will work on after I pick up some horizontal potentiometers ;)  
 
-## 10/6/2025 3 PM - handpicked parts  
+## 10/6/2025 9 AM - handpicked parts  
 
 The nunchuk works, but I can't do much more with it, hence why I am moving to proper parts for the remainder of the project!
 
@@ -82,7 +82,7 @@ It's interesting because I can most likely implement as many features as a CDJ30
 
   
 
-## 10/6/2025 5 PM - Sketching wiring  
+## 10/6/2025 11 AM - Sketching wiring  
 
 This was the sketch of the EQ module, which is going to have 5 rotary pots and 1 horizontal pot
 
@@ -105,7 +105,7 @@ Those are the complicated ones, the rest are passthrough.
 
   
 
-## 10/8/2025 4 PM - First PCB  
+## 10/8/2025 10 AM - First PCB  
 
 So I ordered some parts from digikey! (See: handpicked parts), but I realized I wanted to make some "backpack" type 1-2 layer PCBs so that I wouldn't have to mount it in a wonky way.
 
@@ -124,7 +124,7 @@ It's a very simple 3 encoder design!
 I will need to make sure it all works, and will end up exporting so I can check with Onshape (because I know that better than easyeda), however this is a good first step!
   
 
-## 10/8/2025 7 PM - 4 new PCBs  
+## 10/8/2025 1 PM - 4 new PCBs  
 
 I started by making my full EQ module
 
@@ -164,4 +164,29 @@ The second was that my solder joints WOULDNT STICK because theres no copper (bc 
 ![20251009_112944.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTI2NCwicHVyIjoiYmxvYl9pZCJ9fQ==--66ed46acd51ba9d739d43c024a1637bfb453341d/20251009_112944.jpg)
 
 Yeahhhhhh This SUCKS and I'm never doing it again. Luckily when I return to the workstation I will reprint and solder the second EQ module in a better way. + I'll have a case!  
+
+## 10/11/2025 - Ordered PCBs + New Deck ideas  
+
+
+After I did that solder I checked all the connections and half of them weren't working... so I decided to cut my losses and order from JLBPCB.
+
+After checking my gerber files, I noticed there was a chance that my holes were too small, so I enlarged them by 0.2mm, just to play it safe (shipping is the most expensive part so I wanted to reduce that if possible).
+
+I should get the PCBs in a few days!
+
+In the mean time, I've been learning OnShape to try and build out my decks before I get the PCBS (normally I would just take measurements, put it into tinkercad and call it a day, but my CAD goated friend convinced me to use it for a month), so I built my first model:
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTYyMywicHVyIjoiYmxvYl9pZCJ9fQ==--d299a5c0da7b1bdd3ffe983cedc1ba7ed3557083/image.png)
+
+Literally 2 shapes lol
+
+But this isn't my final design by far. I plan to create an interchangeable deck system so I can swap between a more modern design, and a vinyl (flat) design for my decks
+
+On that note I did use it to test the shaft size with my encoder
+
+![20251010_153255.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTYyNCwicHVyIjoiYmxvYl9pZCJ9fQ==--0f37584b76ed89200b47468895b962b155d56d72/20251010_153255.jpg)
+
+Which ended up working great!
+
+Im excited to learn more of CAD and hopefully finish the designs of some of the more complicated modules... that being said imma start with the EQ module because it's the easiest  
 
