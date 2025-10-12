@@ -190,3 +190,15 @@ Which ended up working great!
 
 Im excited to learn more of CAD and hopefully finish the designs of some of the more complicated modules... that being said imma start with the EQ module because it's the easiest  
 
+## 10/12/2025 - first PCB housing  
+
+After learning a bit more about how to work in onshape faster, I decided to create the housing for the EQ module.
+
+While I wish I added some silkscreen pieces to show the markings (like near center), I do actually like the idea of me adding different "skinned" pieces depending on how I want the modules to look.
+
+Nonetheless I built a pretty basic shell with minimal mounting points and about .5mm tolerance.
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTg3NiwicHVyIjoiYmxvYl9pZCJ9fQ==--2c76e0531e66f5cbdaf3c015289a89d008124419/image.png)
+
+The connector piece is looking a little bit eh, so I plan to upgrade that soon!   
+
