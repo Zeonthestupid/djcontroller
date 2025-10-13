@@ -246,3 +246,16 @@ I thought I would be in the clear but after looking at my build dimensions, it w
 My build plate only works for 220x220 xy, and this has 270x250. I will have to figure out a way to split up the deck or redesign it.
   
 
+## 10/13/2025 4 PM - I MADE IT PRINTABLE  
+
+After a bit of rearranging, I figured out how to redesign it to be printable in two parts, while still feeling relatively the same.
+
+The key was ditching the square layout and moving to a more rectangular layout.
+
+The biggest problem I had doing this was figuring out how to split it without cutting any of the jogwheel part out, since that part will have significant pressure on it at all times (especially if i decide to do a FSR based jogwheel instead of conductive.
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjEwOCwicHVyIjoiYmxvYl9pZCJ9fQ==--4945632a4102e67ed53bb9955d245b5a8c96faad/image.png)
+
+This (imo) looks a lot better, cleaner, and will feel nicer to play.
+  
+
