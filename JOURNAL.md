@@ -229,3 +229,20 @@ The deck design features 4 programmable tactile buttons (at the bottom), as well
 
 Time to add button toppers, and a few other things. After that I'll figure out what the encoder mount looks like!  
 
+## 10/13/2025 3 PM - Adding buttons + messing up  
+
+After cadding the top panel, I went and added a few buttons
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjA5MSwicHVyIjoiYmxvYl9pZCJ9fQ==--c364ddef7636014f545f87138458d261ccd7cc8f/image.png)
+
+This means that I only have to print 3 distinct button types which is really nice!
+
+The problem comes to the build size...
+
+I thought I would be in the clear but after looking at my build dimensions, it was too big for my printer
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjA5MywicHVyIjoiYmxvYl9pZCJ9fQ==--207762ace31c05f44457d41fd3be4e3904a65a67/image.png)
+
+My build plate only works for 220x220 xy, and this has 270x250. I will have to figure out a way to split up the deck or redesign it.
+  
+
