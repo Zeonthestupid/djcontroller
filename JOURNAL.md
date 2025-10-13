@@ -202,3 +202,15 @@ Nonetheless I built a pretty basic shell with minimal mounting points and about 
 
 The connector piece is looking a little bit eh, so I plan to upgrade that soon!   
 
+## 10/13/2025 - New Jogwheel design  
+
+The old jogwheel design was pretty bad.
+
+I've improved my CAD skills by trying to make the platter, as well as making sure its mountable. In reality, idk if I'll be able to mount via set screw (at least for the platter) so for now it's just a press fit. Yes this will wear down over time but nothing a little glue can't fix.
+
+Eventually I'll make it better but this is fine for the v1, especially with a 3d printed shaft!
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjA3NywicHVyIjoiYmxvYl9pZCJ9fQ==--5ebcd5355bb3deeed1bea01d1d258bfaafacd02a/image.png)
+
+A lot of the time was spent trying to pattern and figuring out how to mount it. I gave up on those parts lol  
+
