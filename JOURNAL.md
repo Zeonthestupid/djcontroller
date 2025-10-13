@@ -202,7 +202,7 @@ Nonetheless I built a pretty basic shell with minimal mounting points and about 
 
 The connector piece is looking a little bit eh, so I plan to upgrade that soon!   
 
-## 10/13/2025 - New Jogwheel design  
+## 10/13/2025 1 PM - New Jogwheel design  
 
 The old jogwheel design was pretty bad.
 
@@ -213,4 +213,19 @@ Eventually I'll make it better but this is fine for the v1, especially with a 3d
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjA3NywicHVyIjoiYmxvYl9pZCJ9fQ==--5ebcd5355bb3deeed1bea01d1d258bfaafacd02a/image.png)
 
 A lot of the time was spent trying to pattern and figuring out how to mount it. I gave up on those parts lol  
+
+## 10/13/2025 2 PM - Main Deck layout  
+
+Now that I had some momentum with the jogwheel, I decided to start working on the deck layout / top plate!
+
+The top plate is gonna be the resting spot for the jogwheel, and it will feature holes for all the buttons!
+
+The only issue is that I decided it would be a great idea to do this all in one sketch, which may cause issues later.
+
+The deck design features 4 programmable tactile buttons (at the bottom), as well as 5 top buttons (for track movement and looping), a shift button, a cue and play button set (which may be cncd), a tempo lock button, and a 100mm slider for hyper precise bpm matching!
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjA4MCwicHVyIjoiYmxvYl9pZCJ9fQ==--a52543c7a2a049ffa3eaa03d230e86909fd4c8ba/image.png)
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjA4MSwicHVyIjoiYmxvYl9pZCJ9fQ==--745d148378386b972e58379f4cb7105b4ec7912f/image.png)
+
+Time to add button toppers, and a few other things. After that I'll figure out what the encoder mount looks like!  
 
