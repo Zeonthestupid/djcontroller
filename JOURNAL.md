@@ -259,3 +259,15 @@ The biggest problem I had doing this was figuring out how to split it without cu
 This (imo) looks a lot better, cleaner, and will feel nicer to play.
   
 
+## 10/15/2025 - button mounting spots  
+
+This didn't take me too long, but i figured out I can press fit the buttons into place so that it's nice and snug.
+
+I realized that I needed to make a multilayered design for the controller, that allows me to space my buttons and such correctly while allowing for some other important things, which is what made me realize I'll keep the button slots SEPERATE from the top casing, as the top should be able to be taken off (for easy access), and the bottom / side plating will be fixed. This also means that the wiring will be a lot easier.
+
+Here's the button mounting spots.
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjM1MywicHVyIjoiYmxvYl9pZCJ9fQ==--d356d42064cc3d206147b372b47848e3ae051e46/image.png)
+
+  
+
