@@ -289,3 +289,22 @@ To fix some printing support issues that may arise, I may have to have two of th
 
   
 
+## 10/15/2025 3 PM - Buttons mounting and more  
+
+Since the last journal I did what I did last time, but twice.
+
+I wanted to put all the buttons on and make the mounting plates so I could easily visualize. Unfortunately that gave the project a lot of clutter (or I don't know how to use the rollback bar well).
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjM5NiwicHVyIjoiYmxvYl9pZCJ9fQ==--a0161f7a17b2f878639555e29f28553fb476f8b8/image.png)
+
+This is the home stretch of the CAD phase, and I get my PCBs tomorrow, which means I'm gonna be going as fast as possible to get these things printed.
+
+In terms of cadding I still have to:
+
+- Create the PCB mount
+- Finish the last button plate
+- Make the encoder mount
+- Check w/ friends to make sure construction looks good b4 printing
+
+Ideally I finish this cad tonight so that I can print everything and have it ready for a demo I'm going to be doing on saturday. If not, at least I'll have some eq modules.  
+
