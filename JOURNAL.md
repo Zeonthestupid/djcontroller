@@ -259,7 +259,7 @@ The biggest problem I had doing this was figuring out how to split it without cu
 This (imo) looks a lot better, cleaner, and will feel nicer to play.
   
 
-## 10/15/2025 - button mounting spots  
+## 10/15/2025 9 AM - button mounting spots  
 
 This didn't take me too long, but i figured out I can press fit the buttons into place so that it's nice and snug.
 
@@ -268,6 +268,24 @@ I realized that I needed to make a multilayered design for the controller, that 
 Here's the button mounting spots.
 
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjM1MywicHVyIjoiYmxvYl9pZCJ9fQ==--d356d42064cc3d206147b372b47848e3ae051e46/image.png)
+
+  
+
+## 10/15/2025 10 AM - Layer 3 mounting plate  
+
+oh my goodness...
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjM1NSwicHVyIjoiYmxvYl9pZCJ9fQ==--0d9378aba262e3820b0ff760c85fd56ffdc354f7/image.png)
+
+that sucked. but I fixed it!
+
+Now that I've made the button mounts I decided to create an under spacing mount to help it stay stable. This is the piece that will allow me to take apart the press fits. I didn't add too much clearance (about 0.5mm) for the button mounts, so it may be hard to take apart...
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjM2MSwicHVyIjoiYmxvYl9pZCJ9fQ==--790906027bef86f6f0320319d56da648b45983e7/image.png)
+
+This is the third layer of my stack, this one will have small supports running all the way to the bottom plate (hopefully not a large area), as well as space for wires to be routed.
+
+To fix some printing support issues that may arise, I may have to have two of these parts that snap fit together. Nonetheless it should work, just might be annoying.
 
   
 
