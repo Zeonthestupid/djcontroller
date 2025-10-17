@@ -308,3 +308,45 @@ In terms of cadding I still have to:
 
 Ideally I finish this cad tonight so that I can print everything and have it ready for a demo I'm going to be doing on saturday. If not, at least I'll have some eq modules.  
 
+## 10/17/2025 - Test prints + Got my PCBS!!!  
+
+After creating the button panels, I decided to make sure everything was working...
+
+I printed one of the button holders, and then the curved shell piece (for the play,cue,shift buttons).
+
+It seemed to be going well, the printed turned out nicely. However, after slotting the button in (failing to do so), I realized the tolerance was too small.
+
+I actually ended up bending the pins on the button oops...
+![20251016_090922.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjY2MywicHVyIjoiYmxvYl9pZCJ9fQ==--ac5c875cd52b8e46cd84fb1c1d02f6f4f9bddeaa/20251016_090922.jpg)
+
+After adjusting the tolerance by around 1mm, I reprinted, and it fit super snug.
+
+![20251016_093229.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjY2NCwicHVyIjoiYmxvYl9pZCJ9fQ==--f16c520c9a018a692efa43d05faabd267a8854ac/20251016_093229.jpg)
+
+Once I nailed that, I printed the support / holder piece. That (even though there was .25mm tolerance) fit perfectly.
+
+![20251016_093411.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjY2NSwicHVyIjoiYmxvYl9pZCJ9fQ==--d5a256d6152fe32543a2a53465d1271802f13488/20251016_093411.jpg)
+
+Then my PCBs arrived...
+
+
+![20251016_174140.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjY2NiwicHVyIjoiYmxvYl9pZCJ9fQ==--8164f646ae08617cca5a464f93e4f108f976f778/20251016_174140.jpg)
+
+woaahhh so aesthetic!! I ended up ordering A Lot, but in my testing I realized the eq modules may have the potentiometers a little to close to each other (but it's okay I'll use that one as a compact module!)
+
+It just means I have little room for my fingers (which is fine).
+
+I started soldering it but realized my irons tip was cooked (I would touch the solder to further back on the iron and then move it slowly forward while still burning and onto the pcb), it was wack ah so I picked up a new one.
+
+Afterwards I printed the first JOGWHEEL!!!
+
+![20251016_195412.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjY2NywicHVyIjoiYmxvYl9pZCJ9fQ==--44a0be3fdaca8136715aea957fef13ab30758898/20251016_195412.jpg)
+
+I'm really happy with how it turned out. I used a glow in the dark filament so it would look cool!!
+
+![20251016_213400.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjY2OCwicHVyIjoiYmxvYl9pZCJ9fQ==--2a1f03132221d5ca88980de786d36a98c328b6e7/20251016_213400.jpg)
+
+(the image qual is cooked).
+
+Now I'm refining the CAD a bit, and getting ready to print the deck out!  
+
