@@ -350,3 +350,39 @@ I'm really happy with how it turned out. I used a glow in the dark filament so i
 
 Now I'm refining the CAD a bit, and getting ready to print the deck out!  
 
+## 10/18/2025 - EQ MODULE WORKS!  
+
+Today I started by printing the eq module housing.
+
+I don't really have photos of it, but it's similar to the one below, just without the connection points. The issue is that after I printed it, I noticed it wasn't deep enough, and the pcb had a slight wiggle.
+
+Both are solvable issues, but that wasn't the main focus of today.
+
+The main focus was: Making the EQ module PCB work.
+
+I received my pinecil (yayay), and so I soldered the board properly, and took it to a coworking space!
+
+![20251018_131256.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzE1OCwicHVyIjoiYmxvYl9pZCJ9fQ==--a29544169df6e5554343a1d80cb9cb31e4079162/20251018_131256.jpg)
+
+The pins are standard hobby connection pins (idk what theyre actually called), and thats the case beside it.
+
+After that I loaded up some quick circuitpy code on my rp2040, which allowed me to read the pins. Then I just added some quick normalization to it, so it would return 0-127 (needed for midi)
+
+![20251018_131254.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzE1OSwicHVyIjoiYmxvYl9pZCJ9fQ==--014f21b2e74dded764193ce401c4a447c76b6043/20251018_131254.jpg)
+
+Once I had it normalized, I sent it via midi, but this is where rekordbox problems came up.
+
+Rekordbox doesn't really have the best docs, but I finally figured out how to get midi working (after about 45 min), and so I got a signal through.
+
+The pots have a stopping point in the middle, but when it was there, the reading was slightly high, so I just made it so that if it was outside of a certain range it was normal, else it was 64.
+
+The last change I made is having the midi only send CC messages when a knob was moved, making it so that I could run the code faster.
+
+Heres a vid of it working!!
+
+[20251018_133852.mp4](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzE2MCwicHVyIjoiYmxvYl9pZCJ9fQ==--356ed48e5d9a1a5b4483165b29bc8e70f048c7a7/20251018_133852.mp4)
+
+Im excited I think I can finish the V1 very soon, and I seriously can't wait to take it for a spin (even if I only have 1 deck!)
+
+  
+
