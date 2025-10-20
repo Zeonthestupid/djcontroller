@@ -6,10 +6,6 @@
   ==================================================================
 -->
 
-This is my journal of the design and building process of **DJ Controller**.  
-You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/78).
-
-
 ## 10/3/2025 - Figuring out how to interface w/ rekordbox  
 
 Writing this because I theorized this project a few days ago (and printed one thing for it), but it's still pretty early.
@@ -385,4 +381,34 @@ Heres a vid of it working!!
 Im excited I think I can finish the V1 very soon, and I seriously can't wait to take it for a spin (even if I only have 1 deck!)
 
   
+
+## 10/20/2025 - V2/3 EQ modules  
+
+(this journal was written late)
+
+The case was too small :(
+
+Because of that, I raised the 3d print so that it would have ~20mm of clearance between the bottom of the pcb and the bottom of the print.
+
+This was my "V2" design.
+
+After printing it, I realized it sucked to get the ADC module inside, so I cut part of the bottom off and slipped it inside.
+
+It didnt fit either (or more accurately, it fit just not well.)
+
+That's when I cadded the v3 design (the best one)
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6Mzc3NSwicHVyIjoiYmxvYl9pZCJ9fQ==--571e79d45ef39dded640905944505273f482b426/image.png)
+
+My intention was to place the ADC inside the area where the three holes were, but it really only fit in that tiny gap where it lifts up. It fit so well though, that I ended up just printing an endcap, and using the holes as passthrough (which will work amazing soon I swear!!)
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6Mzc3NiwicHVyIjoiYmxvYl9pZCJ9fQ==--5036129a09c62c996475f84115e4f72c445dcded/image.png)
+
+Once I finished that, the EQ module ended up looking awesome!
+(I may add a cover, but I actually really like the way it looks rn.
+
+![20251019_183106.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6Mzc3NywicHVyIjoiYmxvYl9pZCJ9fQ==--af3adb018044b35e28f9137490190e0381c6a09a/20251019_183106.jpg)
+
+
+It would be done, but because I wired the slider separately, I need to put it through the passthrough into a breadboard. Not too hard, but will do that later in the build process  
 
