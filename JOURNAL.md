@@ -412,3 +412,81 @@ Once I finished that, the EQ module ended up looking awesome!
 
 It would be done, but because I wired the slider separately, I need to put it through the passthrough into a breadboard. Not too hard, but will do that later in the build process  
 
+## 10/22/2025 - Jogwheel saga (it was a lot an now my brain is fried)  
+
+I knew from day one that the jogwheel would be the most complicated part of this, but I didn't realize it would be *this* bad...
+
+After finishing the CADS (while I was working on the EQ modules) I started printing the different parts for the jogwheel:
+
+- Top mount (~4 hr print time)
+- Jogwheel (~2.5 hr print time)
+- Bottom plate (~6 hr print time)
+
+
+The jogwheel was printed before this log, but the top / bottom plates were printed while I was figuring out EQ.
+
+
+[IMG_20251019_195616 (1).heic](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDQ0MSwicHVyIjoiYmxvYl9pZCJ9fQ==--2b248d3e1aad75055f8061cb4459507adbe7f661/IMG_20251019_195616%20(1).heic)
+^^^ Top plate.
+
+Okay, so after I got the top plate, I printed a quick TPU shaft design (literally just a cylinder), and placed it through the top plate + jogwheel.
+
+One issue I noticed right away is that the bearing size was a bit off, so it just fell through the shaft (which wouldn't allow the top bearing to stay, and I aint about to super glue it.
+
+So I did a reprint with a tiny part of the shaft being extruded to prevent the bearing from lowering (and the shaft from going higher than it should be in the top.
+
+![20251019_225851 (1).jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDQ0MiwicHVyIjoiYmxvYl9pZCJ9fQ==--fd2894c73feb01c20f69570040e5dcfda4c72a4a/20251019_225851%20(1).jpg)
+
+What resulted was this awesome thing! I ended up taking it for a spin and it scratched pretty well!
+
+
+[20251020_100830 (3).mp4](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDQ0NCwicHVyIjoiYmxvYl9pZCJ9fQ==--2a0b4b901b06dca0cf8c8cab34f260990f87c120/20251020_100830%20(3).mp4)
+
+
+Then I printed the bottom plate.
+
+Now because I didn't think this through, I added some notches to better fit the top / bottom plates together
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDQ0NSwicHVyIjoiYmxvYl9pZCJ9fQ==--836dfa4b8fcc95528337a181dfe0a3a450917187/image.png)
+
+Except I only had 3 notches, and they were on the outside, and they were <2mm in width...
+
+So the top plate fit (not well) on the other piece. It's okay, my v2 design will either have some screws or a better mounting system, but that's for todays work!
+
+
+![20251020_195432 (1).jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDQ0NiwicHVyIjoiYmxvYl9pZCJ9fQ==--0fd045c9852cc236d64adbcf197db840668662a6/20251020_195432%20(1).jpg)
+
+Also I used my tri color filament so it looked kinda jank...
+
+So after that I mounted the shaft and because it was TPU, the tiny wiggle the encoder had actually didn't matter, which was pretty cool. Once I got everything wired up (like wiring my 3v->5v convertor for the encoder), it ended up spinning in my code YAY!!!
+
+
+So once I got code that was able to register it would be easy to get it working (right???)
+
+The first issue is that rekordbox actually locked behind functionality so that 3rd parties couldn't build controllers for them...
+
+except there was a workaround. By naming your controller the same name as an old controller, it would think you have it plugged in and thus use the signals. I used some python scripts to try and get it working but a lot of it was janky and didn't work well.
+
+I may go back to this but for now I went to mixxx
+
+This was also an issue.
+
+Mixxx has a built in midi scripting language, except for some reason I literally could not get it working. I'd get a bunch of errors like "couldn't find function "" ", so it was just calling a blank function for some reason???
+
+I spent like 2 hours (late at night) debugging, but then I slept and fixed it in like 30m in the morning, so I guess late night building did not work at all lol
+
+That wasn't the end of my problems yet though, because I realized I could scratch, but while the controller was in scratch mode, it would stop the track. Valid, most controllers do this anyways.
+
+So what I ended up doing (temp solution until v2 because I have something awesome planned), is using an FSR (force sensing resistor) to measure when I press.
+
+Then it would just send 127 on cc8 (or 65 if it wasn't scratching), which would be determined by a voltage threshold
+
+This didn't work at first because I mounted it close to the sensor, but after mounting it further, it worked perfectly!
+
+[20251021_121332.mp4](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDQ1MywicHVyIjoiYmxvYl9pZCJ9fQ==--c5fb41135aef008460b21d87095db40098104475/20251021_121332.mp4)
+
+After all of that, I have a working jogwheel.
+
+I will now finish a few more models (like a base for all the eq modules) and the hub module (which has the crossfader), but will start on V2. (I'll put my plans for v2 in the next entry.)
+  
+
