@@ -412,7 +412,7 @@ Once I finished that, the EQ module ended up looking awesome!
 
 It would be done, but because I wired the slider separately, I need to put it through the passthrough into a breadboard. Not too hard, but will do that later in the build process  
 
-## 10/22/2025 - Jogwheel saga (it was a lot an now my brain is fried)  
+## 10/22/2025 10 AM - Jogwheel saga (it was a lot an now my brain is fried)  
 
 I knew from day one that the jogwheel would be the most complicated part of this, but I didn't realize it would be *this* bad...
 
@@ -489,4 +489,25 @@ After all of that, I have a working jogwheel.
 
 I will now finish a few more models (like a base for all the eq modules) and the hub module (which has the crossfader), but will start on V2. (I'll put my plans for v2 in the next entry.)
   
+
+## 10/22/2025 11 PM - Starting jogv2  
+
+Yes I haven't finished v1
+
+I may finish it, but oh my god was it bad.
+
+After reflecting, I realized I didn't wanna use FSRs and am instead transitioning to a button approach.
+And I wanna make the design less jank, more printable and other stuff but yeah...
+
+I spent a lot of time figuring out how to translate the up/down motion while keeping the amt / shaft / jogwheel coupled. But I realized at like 9pm what I needed to do lol.
+
+The final design is going to have my amt102 encoder moving, but I will either glue it or mount it super secure (i found a good way) to the shaft. It goes in a housing that allows the AMT102 to move up / down, while maintaining little rotational backlash.
+
+The nice thing about this design is that I can adjust it kinda at will, without a reprint of the top parts.
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDY1MCwicHVyIjoiYmxvYl9pZCJ9fQ==--b8fd8f8466fa6a1000a970fad695da7ccc041d03/image.png)
+
+This is the final design. It features a "floating" jogwheel design (so it feels more like a proper cdj), but I still have to change 1-2 things before I print!!
+
+So i'm gonna start a print after this journal (overnight) and see how it goes  
 
