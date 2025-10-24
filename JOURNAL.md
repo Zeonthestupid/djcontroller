@@ -511,7 +511,7 @@ This is the final design. It features a "floating" jogwheel design (so it feels 
 
 So i'm gonna start a print after this journal (overnight) and see how it goes  
 
-## 10/24/2025 - Heavily fixing the jogwheel.  
+## 10/24/2025 8 AM - Heavily fixing the jogwheel.  
 
 The V1 design was clunky. In the previous journal entry I put how I was redesigning the V2 parts. Now it was time to build.
 
@@ -547,4 +547,37 @@ and heres a vid of it working!
 [vid.mp4](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTEyMCwicHVyIjoiYmxvYl9pZCJ9fQ==--2080db48a1a452095d0b8e72bf0f53536e83668b/20251023_231827%20(1).mp4)
 
 yay!  
+
+## 10/24/2025 12 PM - V2 Button Designs  
+
+The goal of creating V2 was to make the deck module:
+
+1. More robust
+2. Expandable changeable and have room for quick iteration
+
+So the next step was expanding out how the buttons looked, felt and functioned. This way, I could go onto my more modular setup.
+
+To start that, I wanted to create a "Universal mount" that allowed me to put something in a screw mount, and be able to put either a clicky or more push style button inside.
+
+![20251024_115940.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTE4NCwicHVyIjoiYmxvYl9pZCJ9fQ==--150426744833b08344e23f14a27b194a522e1090/20251024_115940.jpg)
+
+So I started with this sketch... And the big parts of it are:
+
+- Each button type has a respective mounting piece that it's meant to stay on (whether inside of the universal mount or not)
+- The button type cases have the same width and height on the outside, so they can slip into a larger button case (~15mm).
+- The larger case slips into the screw mount, which secures the piece.
+
+This makes it so I can rapid print like 10 of the universal mounts, and some of each mount, and be able to switch kinda on the whim.
+
+Then I started to CAD it, which actually went quite smooth! The only issue I may see is that the buttons are made with a +- of .2mm in height, so the cover piece I have above the tactile buttons may make the buttons go a bit higher than expected.
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTE4NywicHVyIjoiYmxvYl9pZCJ9fQ==--b33ec7cdae94742466e6e309596ef88aebd7a9aa/image.png)
+
+
+A key feature is that the mount that the buttons will slot into is ~3.5mm so I can make buttons as small as that (I'm not planning to, but just so I have the flexibility)
+
+The mounts also naturally have a spacer at the top so when connected it will be sandwiched,  which is important so that the pieces will not move during operation. 
+
+The other nice thing about the buttons here is that I can always swap them if I need YAY!
+  
 
