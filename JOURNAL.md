@@ -511,3 +511,40 @@ This is the final design. It features a "floating" jogwheel design (so it feels 
 
 So i'm gonna start a print after this journal (overnight) and see how it goes  
 
+## 10/24/2025 - Heavily fixing the jogwheel.  
+
+The V1 design was clunky. In the previous journal entry I put how I was redesigning the V2 parts. Now it was time to build.
+
+
+I started by an initial print, and it worked, except because I reduced the shaft size to 5.8 instead of 6.0, the encoder couldn't couple on well enough.
+
+But there was one other issue...
+
+The screw hole I made was double the size (oops),
+
+![20251023_102036.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTExOCwicHVyIjoiYmxvYl9pZCJ9fQ==--d95c02823420ba6672c7bff63211c53a77dcffe2/20251023_102036.jpg)
+
+
+So I reprinted with increased shaft size (only past the bearing part), now at 6.0 , and a smaller hole for the screws. It seemed to work, except it didn't press the button located at the bottom of the shaft.
+
+So I printed AGAIN, and this time, I increased the shaft size to 6.05, as well as extending the shaft downwards - which WORKED YAYAY!!!
+
+The only problem was screwing in the screws was super annoying, so I may increase the hole by a tiny bit (but I may not because that could affect the strength)
+
+
+The jogwheel now has a great feel to it, and i really enjoy scratching on it. Plus, now it's a bit adaptable in terms of pressure to press down.
+
+Some extra changes I added, were adding a spring between the button and shaft (helping with pressure issues), and taping up the wires to the encoder just in case.
+
+Here's an overview of the things I fixed!!!
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTExNywicHVyIjoiYmxvYl9pZCJ9fQ==--84b3bacee6c8fb7f0995d214abe2597a056943ca/image.png)
+![20251023_231805.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTExOSwicHVyIjoiYmxvYl9pZCJ9fQ==--4296bd9e3ca864ae4c2bc3aab3983159393a8e06/20251023_231805.jpg)
+
+
+and heres a vid of it working!
+
+[vid.mp4](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTEyMCwicHVyIjoiYmxvYl9pZCJ9fQ==--2080db48a1a452095d0b8e72bf0f53536e83668b/20251023_231827%20(1).mp4)
+
+yay!  
+
