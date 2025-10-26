@@ -581,3 +581,70 @@ The mounts also naturally have a spacer at the top so when connected it will be 
 The other nice thing about the buttons here is that I can always swap them if I need YAY!
   
 
+## 10/26/2025 - V2 Shell + Printing  
+
+This one's another long one. I should have done it in two entries (I had the first written out but never finished), so I decided to just combine them.
+
+The shell is done! Oh my goodness I'm so much happier with the layout of this shell compared to the previous one. This features:
+- 4 programmable bottom buttons
+- 5 track looping buttons
+- 2 buttons for memory cueing
+- BIG CUE / PLAY BUTTON YAYAYAY
+- Better mounting points
+
+And of course, the two biggest changes (and why I designed v2 in the first place)
+- It's more robust, maintainable and interchangeable
+- The jogwheel is redesigned.
+
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTgwOSwicHVyIjoiYmxvYl9pZCJ9fQ==--6dd7f37dcd9dc9cb6fa89a8d6a65a782d20f864b/image.png)
+
+This is what it looks like yay!
+
+This took me around 3.5 hrs to design, simply because I kept looking to the CDJ3000s to figure out a layout that not only serves me, but any other DJ I give this to.
+
+This is what my pg looked like lol
+
+![20251024_150036](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTgxMCwicHVyIjoiYmxvYl9pZCJ9fQ==--2b57e03773fccb04f59692a00ae604b684e892c7/20251024_150036.jpg)
+
+Anyways that was the shell, which I ended up printing out yay!
+
+![20251026_123635](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTgxMSwicHVyIjoiYmxvYl9pZCJ9fQ==--956cea52f7f705d05140b64d5c37a57785f2e4c8/20251026_123635.jpg)
+
+
+So that was part 1...
+
+After I printed out the shell I wanted to design the mounts utilizing UBM (which is what I'm calling the button system, it's universal button mounting), which basically allows any button so long as u have an insert.
+
+The problems I faced during this were that I wanted to leave enough edge margin for walls, while still having stable screw mounts.
+
+This is what I ended up with:
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTgxMiwicHVyIjoiYmxvYl9pZCJ9fQ==--2b4c75524b1e4f65f7c951df7e02062d53b8c7ce/image.png)
+
+The last step was creating the jogwheel underpiece mounts! For this I decided to use 4 screws, and make them slightly looser since I may replace that piece often in testing (to see how different materials sound!)
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTgxMywicHVyIjoiYmxvYl9pZCJ9fQ==--f9b2af040e28dd7e4463892309fe9d1fc3d3c509/image.png)
+
+Once I finished designing those I took it straight to the printer!
+
+![20251026_092728](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTgxNCwicHVyIjoiYmxvYl9pZCJ9fQ==--75650ebd2aea9bc71b30c12cdb213ac069504412/20251026_092728.jpg)
+
+This was good, but I used the wrong screw size so I had to reprint :(
+
+After taking those parts and assembling most of the parts (my shoulder is cramped now because of the screws lol), I ended up with this awesome piece:
+
+
+
+![20251026_151049](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTgxNSwicHVyIjoiYmxvYl9pZCJ9fQ==--3a3591b4fd4f54d69e8e384fb2ba9271c380478f/20251026_151049.jpg)
+
+Small sidequest tho, I needed to create a PCB for the pushbuttons that I have (and will eventually do it with UBM), but for now, I used my potentiometer ones because I ordered extra!
+
+![20251025_101225](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTgxNiwicHVyIjoiYmxvYl9pZCJ9fQ==--2c1290e86c60f471715e42cdcb155189386c1eea/20251025_101225.jpg)
+
+
+For the reviewers the time breakdown was
+- Jog v2 shell + btn mounts (3 + 2.5 hrs respectively)
+- 3d printing + iterating (1 hr)
+- Assembly + Clean up (1 hr)
+I guess I could have even done 3 entries. I'll do this next time tho!  
+
