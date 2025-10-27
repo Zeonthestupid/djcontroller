@@ -648,3 +648,25 @@ For the reviewers the time breakdown was
 - Assembly + Clean up (1 hr)
 I guess I could have even done 3 entries. I'll do this next time tho!  
 
+## 10/27/2025 - Scoping the next part of my project  
+
+I'm calling this part phase 2. I've done most of the design and have a cohesive thing, so now it's more about improving upon it and adding some of the other, less important modules.
+
+I want to make this controller as modular as possible. In order to do that though, I'm going to need to print a universal button PCB, or completely redesign my UBM system to account for the PCB being bigger than the hole (so I might have to mount from the bottom or something).
+
+I think for me to develop v3 button, I'll need to do both.
+
+One thing that I really wanna do is have 2 pcbs, 1 that works with the pushbuttons, and one that works with the tactile ones (bonus if I can get both to work on the same PCB), and then be able to switch between instant reaction, or fully clicked reaction on the push button.
+
+Other than the button system, I also plan to design the feet, shell, and other aspects of this to turn it from prototype to a more cohesive thing. This means printing / designing the hub modules, and creating a mount for the EQ channels.
+
+Before I create new modules however, I'm going to design a new and improved EQ circuitboard, that has an ADC mounted right on it (and connects via the same I2C connectors that are on other boards). Basically, I want the EQ modules to be finished ASAP, so that I can hopefully get the PCBs in 2 weeks.
+
+There's still a lot to improve about the jogwheel (specifically that it's flimsy), but I'll be worrying about that later, for now I wanna get these pcbs out.
+
+here's the plan for the pcbs:
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTk5OSwicHVyIjoiYmxvYl9pZCJ9fQ==--32afe753b147ea04e37b70a9ba7339aa1766ee5e/image.png)
+
+Hoping to get phase 2 stuff done by week three of november.  
+
