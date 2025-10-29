@@ -689,5 +689,10 @@ No extra hardware build, but the main software changes are:
 - EQs are dynamically calculated on startup, with up to 4 channels
 - Added some controller optimization *this is for a future date too
 
-However, Seeing it in action was ONE OF THE COOLEST THINGS because I've been at this project for so long Omgomgomg yay. Okay, i'm excited to cap off phase one with some final button things, and start of phase two!  
+However, Seeing it in action was ONE OF THE COOLEST THINGS because I've been at this project for so long Omgomgomg yay. Okay, i'm excited to cap off phase one with some final button things, and start of phase two!
+
+here's a vid of it working btw: 
+
+[20251027_231032](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjQzMiwicHVyIjoiYmxvYl9pZCJ9fQ==--ce1e1cd300ed901df9edccf51f932da2ce5ad4a2/20251027_231032.mp4)
+  
 
