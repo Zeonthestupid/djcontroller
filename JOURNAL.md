@@ -670,3 +670,24 @@ here's the plan for the pcbs:
 
 Hoping to get phase 2 stuff done by week three of november.  
 
+## 10/28/2025 - Working with (and programming) mixxx controls.  
+
+Today I worked on making a proper control scheme for my controller. 
+
+To start, I looked at some mixxx documentation, which ended up having the majority of the resources I needed to form a proper control scheme.
+
+Some of the things however were poorly documented / a bit ambiguous. Like the CFX (known as quick fx on it) for example, and also a few other things.
+
+However, one thing that I also added to my controller, is the ability to dynamically register and interface with the EQ modules. This will allow me to properly set things up even if some things are missing (WHICH MEANS I CAN DJ ON THE TRAIN YAYAYAYAYYAYA)
+
+Going thru stuff like this was cool tho
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjQzMSwicHVyIjoiYmxvYl9pZCJ9fQ==--dfbef844b95084dfc471a2ecc970776bd355a7f5/image.png)
+
+No extra hardware build, but the main software changes are:
+- EQ, vol, gain & cfx work with mixxx
+- EQs are dynamically calculated on startup, with up to 4 channels
+- Added some controller optimization *this is for a future date too
+
+However, Seeing it in action was ONE OF THE COOLEST THINGS because I've been at this project for so long Omgomgomg yay. Okay, i'm excited to cap off phase one with some final button things, and start of phase two!  
+
