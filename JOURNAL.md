@@ -696,3 +696,44 @@ here's a vid of it working btw:
 [20251027_231032](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjQzMiwicHVyIjoiYmxvYl9pZCJ9fQ==--ce1e1cd300ed901df9edccf51f932da2ce5ad4a2/20251027_231032.mp4)
   
 
+## 11/2/2025 - V2 Schematic, Routing + More  
+
+It's been 5 days since I've put out a journal entry. A lot has happened, but it's easier to just pop it in one under the scope of schematic creation.
+
+To be honest, a lot of it was searching through data sheets, learning about different communication protocols, and figuring out how in depth I want this PCB to be. 
+
+Anyways, I ended up solidifying that I wanted my PCB to have:
+
+- 2-3 I2C (stemma QT) connectors, since that's the protocol I'm already using
+- An ADS7830, an 8 channel ADC (one per channel of EQ)
+- A MCP23017, a 16 GPIO expander, allowing for me to interface with a set of LEDs, while having 8 GPIOs for anything else
+- A button / LED to cue the track on the phones.
+
+and then my 6 potentiometer setup like before.
+
+Here's how this ended up turning out:
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6Nzg5NiwicHVyIjoiYmxvYl9pZCJ9fQ==--05be300e586ab64606be6394ae96e173ffa244a9/image.png)
+
+I'm happy with how organized things are, and I think this is the 2nd or 3rd iteration of the schematic itself (the first time was with some other boards).
+
+Then it came to the wiring...
+
+So I made the dumb decision of moving my boards super far away from the connector, making the I2C bus worse, but before doing research about the protocol, I thought I would have to move my data line to be the same length, resulting in this awful thing:
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6Nzg5OSwicHVyIjoiYmxvYl9pZCJ9fQ==--93d5128fac0b9c686a3e051659651242c7c2ca0d/image.png)
+
+Which my friend responded with "This sucks please fix"
+
+So I did.
+
+Which took ANOTHER 2 HOURS BRUHHH
+
+Anyways its looking a lot better but not perfect, I still have yet to wire any of the capacitors, resistors or even the connections to the pots. Still, wanted to put this out since I've been absent from journaling for the past 5 days oop
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzkwMCwicHVyIjoiYmxvYl9pZCJ9fQ==--28fe84970dbb4aaf4a7cc77c8e5059c84d7af01d/image.png)
+
+
+
+
+  
+
